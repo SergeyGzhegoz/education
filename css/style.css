@@ -6,6 +6,14 @@
     font-size: 20px;
 }
 
+h1 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .container {
     width: 1080px;
     margin: 0 auto;
@@ -42,8 +50,35 @@ header {
     margin-right: 40px;
 }
 
-.main-menu ul li a{
+.main-menu ul li a {
     text-decoration: none;
     font-weight: 700;
-    color: #000;    
+    color: #000;
+}
+
+/* Banner */
+.banner {
+    height: 487px;
+}
+
+.banner__left {
+    float: left;
+    width: 550px;
+    padding-top: 76px;
+}
+
+.banner__left :nth-child(2){
+    margin: 34px 0;
+}
+
+.banner__left button{
+    border-radius: 10px;
+    background: #682C0E;
+    color: #fff;
+    width: 200px;
+    height: 44px;
+}
+
+.banner img {
+    float: right;
 }
